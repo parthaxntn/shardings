@@ -1,0 +1,13 @@
+.chatbox_enclosure{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 100%;
+    margin-left: auto;
+}
+
+@media screen and (min-width: 768px){
+    .chatbox_enclosure{
+        width: calc(100% - 25rem);
+    }
+}
